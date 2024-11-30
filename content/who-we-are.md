@@ -1,3 +1,4 @@
 ---
-layout: what-we-do
+title: Who we are
+layout: who-we-are
 ---
