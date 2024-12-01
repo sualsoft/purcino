@@ -1,0 +1,87 @@
+{{define "main"}}
+
+<section class="hero careers-dark">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-md-6 dark">
+        <h2>Hey There!</h2>
+        <p>
+          Our Careers section offers diverse opportunities for internships,
+          apprenticeships, and jobs across various engineering, architectural,
+          and management disciplines.
+        </p>
+        <p>
+          We are committed to fostering professional growth and development,
+          providing hands-on experience and learning opportunities for students
+          and emerging professionals. Whether you're looking to gain practical
+          skills through an internship, embark on a career through an
+          apprenticeship, or explore full-time job openings, we offer a range of
+          pathways to support your career aspirations in the engineering,
+          architectural, and management field
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="career-form">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form action="/action_page.php">
+          <p>Come work with us</p>
+          <div class="row">
+            <div class="col-lg-12">
+              <label for="fname">First name <sup>*</sup></label
+              ><br />
+              <input type="text" id="fname" name="fname" /><br />
+            </div>
+            <div class="col-lg-12">
+              <label for="lname">Last name <sup>*</sup></label>
+              <br />
+              <input type="text" id="lname" name="lname" />
+            </div>
+            <div class="col-md-6">
+              <label for="email">Email <sup>*</sup></label>
+              <br />
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="col-md-6">
+              <label for="phone">Phone </label>
+              <br />
+              <input type="phone" id="phone" name="phone" />
+            </div>
+            <div class="col-lg-12">
+              <label for="address">Address </label>
+              <br />
+              <input type="text" id="address" name="address" />
+            </div>
+
+            <div class="col-lg-12">
+              <label for="position">Position<sup>*</sup> </label>
+              <br />
+              <input type="text" id="position" name="position" />
+            </div>
+
+            <div class="col-lg-12">
+              <label for="date">Start Date </label>
+              <br />
+              <input type="date" id="date" name="date" />
+            </div>
+
+            <div class="col-lg-6">
+              <label for="cv">Link to CV/Linkedin<sup>*</sup> </label>
+              <br />
+              <input type="link" id="cv" name="cv" />
+            </div>
+
+            <div class="col-lg-6 btn pb-0">
+              <button type="submit" value="Submit">Apply</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

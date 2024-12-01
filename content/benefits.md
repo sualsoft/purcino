@@ -1,3 +1,4 @@
 ---
+title: Benefits
 layout: benefits
 ---

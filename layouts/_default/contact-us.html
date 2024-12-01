@@ -1,0 +1,163 @@
+{{define "main"}}
+
+<section class="hero text">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h2><i>Contact Us</i></h2>
+        <p>
+          We’d love to hear from you! <br />
+
+          Whether you have questions about our services or need assistance with
+          your project, our team is here to help. Fill out our Contact Form with
+          your details, and a member of our team will get back to you within 24
+          hours. Let’s work together to bring your vision to life.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-us">
+  <div class="row">
+    <div class="col-lg-6 p-0">
+      <div class="contact-img"></div>
+    </div>
+    <div class="col-lg-6 dark">
+      <div class="row">
+        <div class="col-lg-10">
+          <h5 class="text-center"><i>What can we help you with?</i></h5>
+          <ul>
+            <li>
+              <p>
+                <a href="mailto: infopurcino@gmail.com">
+                  infopurcino@gmail.com</a
+                >
+              </p>
+              <p>|</p>
+
+              <p>857-389-9875</p>
+            </li>
+          </ul>
+
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="fname">First name <sup>*</sup></label
+                ><br />
+                <input type="text" id="fname" name="fname" /><br />
+              </div>
+              <div class="col-lg-6">
+                <label for="lname">Last name <sup>*</sup></label>
+                <br />
+                <input type="text" id="lname" name="lname" />
+              </div>
+              <div class="col-md-12">
+                <label for="email">Email <sup>*</sup></label>
+                <br />
+                <input type="email" id="email" name="email" />
+              </div>
+
+              <div class="col-md-12">
+                <label for="company">Company </label>
+                <br />
+                <input type="text" id="company" name="company" />
+              </div>
+
+              <div class="col-lg-12">
+                <label for="address">Address </label>
+                <br />
+                <input type="text" id="address" name="address" />
+              </div>
+              <div class="col-md-12">
+                <label for="phone">Phone </label>
+                <br />
+                <input type="phone" id="phone" name="phone" />
+              </div>
+
+              <div class="col-lg-12">
+                <textarea
+                  name="Message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
+              <div class="col-lg-12 check mb-5">
+                <input type="checkbox" id="agree" name="agree" value="Agree" />
+                <label for="agree"> I agree to the terms and conditions</label
+                ><br />
+              </div>
+
+              <div class="col-lg-6 btn pb-0 mt-5 p-0 mb-5">
+                <button type="submit" value="Submit">Send</button>
+              </div>
+            </div>
+          </form>
+
+          <div class="row social">
+            <div class="col-md-3">
+              <a href="/" target="_blank">Facebook</a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="/" target="_blank">Twitter</a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="/" target="_blank">Instagram</a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="/" target="_blank">Linkedin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hours">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <h2><i>Operating Hours</i></h2>
+      </div>
+      <div class="col-md-4 dark">
+        <ul>
+          <li>
+            <p>Mon-Fri</p>
+            <p>08:00AM - 10:00PM</p>
+          </li>
+
+          <li>
+            <p>Saturday</p>
+            <p>09:00AM - 08:00PM</p>
+          </li>
+
+          <li>
+            <p>Sunday</p>
+            <p>09:00AM - 08:00PM</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48304102.78043317!2d-144.88769531249997!3d42.35854391749706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA%2C%20USA!5e0!3m2!1sen!2slk!4v1733033039694!5m2!1sen!2slk"
+    width="100%"
+    height="450"
+    style="border: 0"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</section>
+
+{{end}}

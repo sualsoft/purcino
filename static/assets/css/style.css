@@ -138,6 +138,7 @@
 body {
   font-family: var(--secondary-font);
   color: #444444;
+  overflow-x: hidden;
 }
 
 a {
@@ -535,6 +536,311 @@ who we are
   color: var(--black-color);
   font-family: var(--primary-font);
   font-size: 16px;
+}
+/*--------------------------------------------------------------
+# what we do
+--------------------------------------------------------------*/
+.text-dark .container {
+  background-color: rgb(204, 204, 204);
+}
+
+.text-dark h4 {
+  font-size: 20px;
+  font-style: italic;
+}
+.text-dark p {
+  font-family: var(--primary-font);
+}
+.featured-project {
+  padding: 60px 0px;
+}
+.featured-project h2 {
+  font-style: italic;
+  font-size: 80px;
+}
+.featured-project .card {
+  height: 250px;
+  border-radius: 0px;
+  border: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-project .card a {
+  padding: 12px 20px;
+  color: #fff;
+  font-family: var(--primary-font);
+  background-color: var(--black-color);
+  opacity: 0;
+}
+
+.featured-project .card:hover a {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+#Benefits
+--------------------------------------------------------------*/
+.benefits {
+  min-height: 100vh;
+}
+
+.benefits .dark {
+  padding: 2rem;
+  background-color: #ccc;
+  margin-top: 5rem;
+}
+.benefits .dark p {
+  font-family: var(--primary-font);
+  color: #2f2e2e;
+  font-size: 16px;
+}
+
+.benefits .benefits-img {
+  position: relative;
+}
+
+.benefits .benefits-img img {
+  position: absolute;
+  width: 600px;
+  top: -50px;
+  right: 0px;
+  z-index: -1;
+}
+
+.text ul li {
+  font-family: var(--primary-font);
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 6px;
+}
+.text-cta .container {
+  background-color: var(--black-color);
+  padding: 3rem;
+}
+.text-cta .container h2 {
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.text-cta a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  font-family: var(--primary-font);
+}
+.benefits-cta {
+  width: 100%;
+  height: 300px;
+  background-image: url(/assets/img/benefits-cta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--------------------------------------------------------------
+# Careers
+--------------------------------------------------------------*/
+.careers-dark {
+  background-image: url(/assets/img/careers.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.careers-dark .row {
+  align-items: end;
+  min-height: 80vh;
+}
+
+.careers-dark .dark {
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.careers-dark .dark h2 {
+  font-size: 56px;
+  font-style: italic;
+}
+
+.careers-dark .dark p {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.career-form {
+  padding: 60px 0px;
+  background-color: #ccc;
+}
+
+.career-form form {
+  background-color: #fff;
+  padding: 2rem;
+}
+.career-form form p {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+}
+.career-form form label {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  padding: 0.6rem 0 0.6rem 0;
+}
+
+.career-form form input {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background-color: #efeff4;
+  padding: 6px 12px;
+}
+.career-form form input:focus {
+  border: none;
+  outline: none;
+  background-color: rgb(236, 247, 252);
+}
+.career-form form input#date {
+  font-family: var(--primary-font);
+  color: #a0a09f;
+}
+
+.career-form form .btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.career-form form button {
+  width: 100%;
+  background-color: #000;
+  border: none;
+  border-radius: 50px;
+  padding: 6px 12px;
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  transition: 0.5s all;
+}
+
+.career-form form button:hover {
+  background-color: var(--ash-color);
+}
+
+/*--------------------------------------------------------------
+# Contact us
+--------------------------------------------------------------*/
+
+.contact-us .contact-img {
+  height: 100%;
+  background-image: url(/assets/img/contact-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us .dark {
+  background-color: #d6d6d6;
+  padding: 2rem;
+}
+.contact-us .dark ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 2rem;
+}
+.contact-us .dark ul li {
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+
+.contact-us .dark ul li a {
+  font-family: var(--primary-font);
+  color: var(--black-color);
+  font-size: 16px;
+}
+
+.contact-us form label {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  margin: 2rem 0rem 1rem 0rem;
+}
+
+.contact-us form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: #000 1px solid;
+}
+.contact-us form input:focus {
+  border-bottom: var(--ash-color) 1px solid;
+}
+
+.contact-us form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: #000 1px solid;
+  margin-top: 2rem;
+}
+
+.contact-us form textarea::placeholder {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--black-color);
+}
+
+.contact-us form input#agree {
+  width: 15px;
+}
+
+.contact-us form button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 8px 50px;
+}
+.contact-us .social a {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  text-decoration: underline;
+  color: #000;
+}
+
+.hours {
+  background-color: #ccc;
+  padding: 60px 0px;
+}
+
+.hours h2 {
+  font-size: 38px;
+}
+.hours ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.hours ul li {
+  display: flex;
+  font-style: italic;
+  gap: 2rem;
+}
+
+.map {
+  margin-bottom: -20px;
+  padding-bottom: 0px;
 }
 /*--------------------------------------------------------------
 # Footer

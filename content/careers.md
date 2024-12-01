@@ -1,3 +1,4 @@
 ---
+title: Careers
 layout: careers
 ---

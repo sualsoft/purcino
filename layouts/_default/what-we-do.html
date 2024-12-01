@@ -1,0 +1,168 @@
+{{define "main"}}
+<section class="hero text">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <h4><i>What We Do</i></h4>
+        <h2><i>Our Experience</i></h2>
+        <p>
+          With extensive experience across a wide range of construction
+          projects, our firm specializes in developing comprehensive
+          construction blueprints that include architectural, civil, and
+          structural plans. We’ve successfully completed projects for
+          commercial, and residential sectors, each tailored to meet the
+          specific demands of the property type and purpose. Our team is also
+          skilled in environmental projects, ensuring compliance with all
+          relevant ecological standards and requirements. From providing
+          detailed plot plans to meeting rigorous building permit standards, we
+          handle every aspect of project planning and design with precision and
+          professionalism, ensuring our clients receive high-quality, compliant
+          results for each unique vision.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text-dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 mb-5 pb-5 pt-5">
+        <h2><i>What We Offer</i></h2>
+      </div>
+      <div class="col-lg-4">
+        <h4>Surveying Work</h4>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          Our surveying team provides precise and reliable services, delivering
+          detailed plot plans and accurate stakeouts to ensure every project
+          begins with a solid foundation. We use advanced surveying techniques
+          to map out property boundaries and project layouts, giving our clients
+          a clear, accurate understanding of the land before construction
+          begins. From initial measurements to marking specific points on-site,
+          our team ensures each plot plan and stakeout is performed with
+          precision, setting up projects for smooth, compliant progress.
+        </p>
+      </div>
+
+      <div class="col-lg-4 mt-5">
+        <h4>Architecture Plan</h4>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <p>
+          Our architectural planning services provide clients with
+          comprehensive, meticulously crafted blueprints that bring their vision
+          to life. We deliver detailed architectural drawings that include all
+          necessary elements to guide the building process, from layout and
+          structural details to design aesthetics. To ensure every detail meets
+          client expectations, we offer unlimited revisions, allowing for
+          adjustments until the plans perfectly align with the client’s vision.
+          Each plan is tailored to meet the project’s unique needs while
+          aligning with building codes and regulatory requirements, ensuring a
+          smooth path from concept to construction. Our focus on precision and
+          clarity in every drawing makes the transition from plan to building
+          seamless and efficient.
+        </p>
+      </div>
+
+      <div class="col-lg-4 mt-5">
+        <h4>SCivil Plan</h4>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <p>
+          Our civil engineering planning services provide clients with precise,
+          reliable plans that are essential for building construction. We
+          develop comprehensive site plans that include grading, drainage,
+          utilities, and other foundational elements required to support the
+          structure and ensure long-term stability. Each plan is meticulously
+          crafted to meet both the client’s specifications and local regulatory
+          standards, streamlining the approval process. With our detailed civil
+          plans in place, clients can be confident that the site is prepared for
+          construction, optimizing both safety and efficiency as the project
+          progresses.
+        </p>
+      </div>
+
+      <div class="col-lg-4 mt-5">
+        <h4>Structural Plan</h4>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <p>
+          Our structural engineering planning services deliver the critical
+          framework needed for safe and resilient buildings. We provide detailed
+          structural plans that outline essential elements like load-bearing
+          walls, beams, foundations, and other support systems to ensure the
+          building’s stability and strength. Each plan is developed with
+          precision to meet the specific needs of the project, always in
+          compliance with local codes and industry standards. With our
+          structural plans, clients can proceed with construction confidently,
+          knowing their building has a strong foundation engineered for
+          durability and safety.
+        </p>
+      </div>
+
+      <div class="col-lg-4 mt-5">
+        <h4>Project Management</h4>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <p>
+          Our project management services are designed to take the weight off
+          your shoulders and ensure your project is executed seamlessly from
+          concept to completion. Our dedicated project managers bring extensive
+          experience in planning, scheduling, and overseeing every aspect of
+          construction, along with supervision of the project throughout every
+          stage, guaranteeing that your goals, timelines, and budget are met
+          without compromise.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <h2 class="text-center"><i>Where We Work</i></h2>
+        <p>
+          PURCINO proudly serves clients across the Northeast region, bringing
+          our expertise to a diverse range of projects in this dynamic area.
+          From bustling urban centers to suburban and rural landscapes, we have
+          the experience to address the unique challenges and requirements of
+          construction across various settings. Our deep understanding of
+          regional building codes and standards ensures that every project is
+          compliant and tailored to the needs of the location. With a commitment
+          to quality and client satisfaction, we bring our specialized approach
+          to architectural, civil, and structural engineering throughout the
+          Northeast.
+        </p>
+        <p>
+          We value privacy of all our projects and clients information, purpuse,
+          and intentions of property use. Listed are projects with explicit
+          authorization to be on this platform.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="featured-project">
+  <div class="container">
+    <div class="row">
+      <h2>
+        FEATURED <br />
+        PROJECTS
+      </h2>
+
+      {{range .Params.cards}}
+      <div class="col-md-4 mt-5">
+        <div class="card" style="background-image: url('{{.images}}')">
+          <a href="{{.link}}">Learn More</a>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{end}}
