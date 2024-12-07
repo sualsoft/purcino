@@ -853,6 +853,15 @@ who we are
   background-color: #efeff4;
   padding: 6px 12px;
 }
+.career-form form select#position {
+  width: 100%;
+  padding: 8px 18px;
+  border-radius: 1000px;
+  outline: none;
+  border: none;
+  background-color: #efeff4;
+  font-family: var(--primary-font);
+}
 .career-form form input:focus {
   border: none;
   outline: none;
