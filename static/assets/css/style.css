@@ -616,7 +616,8 @@ who we are
 #Benefits
 --------------------------------------------------------------*/
 .benefits {
-  min-height: 100vh;
+  margin-top: 200px !important;
+  min-height: 50vh;
 }
 
 .benefits .dark {
