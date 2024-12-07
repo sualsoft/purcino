@@ -806,13 +806,14 @@ who we are
   background-repeat: no-repeat;
 }
 .careers-dark .row {
-  align-items: end;
-  min-height: 80vh;
+  align-items: center;
+  min-height: 40vh;
 }
 
 .careers-dark .dark {
   background-color: #fff;
-  margin-bottom: 2rem;
+  padding: 4rem;
+  margin: 3rem;
 }
 
 .careers-dark .dark h2 {
