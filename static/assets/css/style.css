@@ -335,7 +335,7 @@ h6 {
   height: 100vh; /* Adjust height as needed */
   overflow: hidden;
   margin-top: 0px !important;
-  margin-top: -70px !important; /* Remove duplicate property */
+  margin-top: -120px !important; /* Remove duplicate property */
 }
 
 .background-video {
@@ -430,8 +430,9 @@ h6 {
 .feature .img img {
   height: 350px;
 }
+
 .ftr {
-  height: 70vh;
+  min-height: 50vh;
 }
 .ftr .light-bg h2 {
   font-size: 32px;
@@ -610,6 +611,125 @@ who we are
 
 .featured-project .card:hover a {
   opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.75);
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap img {
+  transition: 1s;
+}
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .portfolio-wrap .portfolio-info::before {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-top: 3px solid rgba(73, 73, 73, 0.2);
+  border-left: 3px solid rgba(73, 73, 73, 0.2);
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+.portfolio .portfolio-wrap .portfolio-info::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  border-bottom: 3px solid rgba(73, 73, 73, 0.2);
+  border-right: 3px solid rgba(73, 73, 73, 0.2);
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 18px;
+  font-family: var(--primary-font);
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  background: var(--black-color);
+  margin: 10px 2px;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-links a i {
+  font-size: 24px;
+  line-height: 0;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: var(--ash-color);
+}
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.1);
+}
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-info::before {
+  top: 15px;
+  left: 15px;
+}
+.portfolio .portfolio-wrap:hover .portfolio-info::after {
+  bottom: 15px;
+  right: 15px;
 }
 
 /*--------------------------------------------------------------

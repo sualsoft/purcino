@@ -156,15 +156,39 @@
         FEATURED <br />
         PROJECTS
       </h2>
+    </div>
+  </div>
+</section>
 
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio pb-5">
+  <div class="container" data-aos="fade-up">
+    <div
+      class="row gy-4 portfolio-container"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
       {{range .Params.cards}}
-      <div class="col-md-4 mt-5">
-        <div class="card" style="background-image: url('{{.images}}')">
-          <a href="{{.link}}">Learn More</a>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="{{.images}}" class="img-fluid" alt="" />
+          <div class="portfolio-info">
+            <h4>{{.title}}</h4>
+            <div class="portfolio-links">
+              <a
+                href="{{.images}}"
+                data-gallery="portfolioGallery"
+                class="portfokio-lightbox"
+                title="{{.description}}"
+                ><i class="bi bi-plus"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
       {{end}}
     </div>
   </div>
 </section>
+<!-- End Portfolio Section -->
 {{end}}
