@@ -331,7 +331,7 @@ h6 {
 --------------------------------------------------------------*/
 .hero-bg {
   position: relative;
-  width: 100%;
+  width: 105%;
   height: 110vh; /* Adjust height as needed */
   overflow: hidden;
   margin-top: 0px !important;
