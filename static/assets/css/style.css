@@ -474,6 +474,17 @@ section header h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-section h2 {
+  color: #fff;
+}
+
+.img-section a {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 1000px;
+  border: 1px solid #fff;
 }
 
 .cta-last {
