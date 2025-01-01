@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:57405/4th-project/</loc>
+    <loc>http://localhost:57015/4th-project/</loc>
   </url><url>
-    <loc>http://localhost:57405/benefits/</loc>
+    <loc>http://localhost:57015/benefits/</loc>
   </url><url>
-    <loc>http://localhost:57405/careers/</loc>
+    <loc>http://localhost:57015/careers/</loc>
   </url><url>
-    <loc>http://localhost:57405/categories/</loc>
+    <loc>http://localhost:57015/categories/</loc>
   </url><url>
-    <loc>http://localhost:57405/contact-us/</loc>
+    <loc>http://localhost:57015/contact-us/</loc>
   </url><url>
-    <loc>http://localhost:57405/</loc>
+    <loc>http://localhost:57015/</loc>
   </url><url>
-    <loc>http://localhost:57405/tags/</loc>
+    <loc>http://localhost:57015/tags/</loc>
   </url><url>
-    <loc>http://localhost:57405/what-we-do/</loc>
+    <loc>http://localhost:57015/what-we-do/</loc>
   </url><url>
-    <loc>http://localhost:57405/who-we-are/</loc>
+    <loc>http://localhost:57015/who-we-are/</loc>
   </url>
 </urlset>
